@@ -1,2 +1,14 @@
-<h1>Welcome#index</h1>
-<p>Find me in app/views/welcome/index.html.erb</p>
+
+<div class="coffee">
+  <h1>Terroir Coffee Subscription Box</h1>
+  <p>The World's Finest Single Origin Coffee.</p>
+  <div class='subscribe'>
+    <button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>   <%= link_to "Sign-Up", new_user_registration_path %>
+
+</button>
+  </div>
+  <div class='confirmation'>
+    <%= flash[:notice] unless flash[:notice].blank?%>
+</div>
+</div>

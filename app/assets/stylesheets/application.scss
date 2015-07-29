@@ -15,3 +15,88 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ /*flash*/
+ .alert-error {
+     background-color: #f2dede;
+     border-color: #eed3d7;
+     color: #b94a48;
+     text-align: left;
+  }
+
+ .alert-alert {
+     background-color: #f2dede;
+     border-color: #eed3d7;
+     color: #b94a48;
+     text-align: left;
+  }
+
+ .alert-success {
+     background-color: #dff0d8;
+     border-color: #d6e9c6;
+     color: #468847;
+     text-align: left;
+  }
+
+ .alert-notice {
+     background-color: #dff0d8;
+     border-color: #d6e9c6;
+     color: #468847;
+     text-align: left;
+  }
+
+  @import "bootstrap-sprockets";
+  @import "bootstrap";
+  @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+  @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600);
+
+  .coffee {
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) ), url(http://growcoffeetea.com/grow/wp-content/uploads/2015/07/grow-may-shoot-8787.jpg);
+    background-size: cover;
+    background-position: fixed;
+    height: 100vh;
+    width: 100vw;
+    margin-top: -2%;
+    padding-bottom: 5%;
+  }
+
+  .coffee h1 {
+    font-family: 'lato', sans-serif;
+    font-size: 4.6em;
+    font-size: 5em;
+    line-height: 1.0em;
+    font-weight: normal;
+    letter-spacing: .01em;
+    margin-bottom: 0.25em;
+    color: white;
+    text-align: center;
+    padding-top: 4em;
+  }
+  .coffee p {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 2em;
+  }
+
+  .form-inline {
+    margin: 0 auto;
+   width:40%;
+   padding-top: 10em;
+   padding-bottom: 10em;
+  }
+
+a {
+  color: black;
+  font-family: 'lato', sans-serif;
+  text-align: center;
+  display: inline-block;
+}
+
+.subscribe {
+  color: black !important;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-top: 2em;
+}
