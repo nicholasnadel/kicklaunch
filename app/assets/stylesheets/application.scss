@@ -13,6 +13,10 @@
  *= require_tree .
  *= require_self
  */
+ /*
+  *= require jquery-ui
+ */
+
  @import "bootstrap-sprockets";
  @import "bootstrap";
  /*flash*/
@@ -99,4 +103,8 @@ a {
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
   padding-top: 2em;
+}
+
+.modal {
+  font-size: 14px;
 }
